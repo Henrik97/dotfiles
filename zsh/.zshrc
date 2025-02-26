@@ -148,3 +148,6 @@ export FPATH="~/eza/completions/zsh:$FPATH"
 #----- PASSPHREASE-----
 eval "$(ssh-agent -s)" > /dev/null
 ssh-add ~/.ssh/id_ed25519 2>/dev/null
+
+#---aws-----
+export AWS_PROFILE=dev
