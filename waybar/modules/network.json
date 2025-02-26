@@ -1,0 +1,13 @@
+{
+  "network": {
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰈁",
+    "tooltip-format": "{ifname}",
+    "tooltip-format-wifi": "Network {essid}\nGateway {gwaddr}\nIP {ipaddr}",
+    "tooltip-format-ethernet": "{ifname}",
+    "tooltip-format-disconnected": "Disconnected",
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "on-click": "kitty -1 --class 'nmtui' -e nmtui",
+    "cursor": false
+  }
+}
