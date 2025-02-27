@@ -3,8 +3,6 @@ accerciser
 alsa-utils
 ark
 awesome-terminal-fonts
-base
-base-devel
 bash-completion
 bat
 blueman
@@ -74,7 +72,6 @@ neofetch
 neovim
 network-manager-applet
 networkmanager
-nodejs
 npm
 nvidia
 nvidia-settings
