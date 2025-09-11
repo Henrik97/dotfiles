@@ -37,4 +37,15 @@
       "pulseaudio",
     ],
   },
+  {
+    "output": "eDP-1",
+    "layer": "top",
+    "position": "top",
+    "height": 36,
+    "gtk-layer-shell": true,
+    "spacing": 6,
+    "fixed-center": true,
+    "modules-left": ["hyprland/window"],
+    "modules-center": ["hyprland/workspaces"],
+  },
 ]

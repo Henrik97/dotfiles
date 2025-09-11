@@ -1,0 +1,108 @@
+[2025-03-12 16:54:14] Starting monitor configuration
+[2025-03-12 16:54:15] Detected monitors: [{
+    "id": 0,
+    "name": "eDP-1",
+    "description": "Lenovo Group Limited LP140WU4-SPK1",
+    "make": "Lenovo Group Limited",
+    "model": "LP140WU4-SPK1",
+    "serial": "",
+    "width": 1920,
+    "height": 1200,
+    "refreshRate": 60.00100,
+    "x": 0,
+    "y": 0,
+    "activeWorkspace": {
+        "id": 1,
+        "name": "1"
+    },
+    "specialWorkspace": {
+        "id": 0,
+        "name": ""
+    },
+    "reserved": [0, 0, 0, 0],
+    "scale": 1.50,
+    "transform": 0,
+    "focused": true,
+    "dpmsStatus": true,
+    "vrr": false,
+    "solitary": "0",
+    "activelyTearing": false,
+    "directScanoutTo": "0",
+    "disabled": false,
+    "currentFormat": "XRGB8888",
+    "mirrorOf": "none",
+    "availableModes": ["1920x1200@60.00Hz","1920x1080@60.00Hz","1600x1200@60.00Hz","1680x1050@60.00Hz","1280x1024@60.00Hz","1440x900@60.00Hz","1280x800@60.00Hz","1280x720@60.00Hz","1024x768@60.00Hz","800x600@60.00Hz","640x480@60.00Hz"]
+},{
+    "id": 1,
+    "name": "DP-1",
+    "description": "Dell Inc. DELL U2518D 3C4YP78V367L",
+    "make": "Dell Inc.",
+    "model": "DELL U2518D",
+    "serial": "3C4YP78V367L",
+    "width": 2560,
+    "height": 1440,
+    "refreshRate": 59.95100,
+    "x": 1280,
+    "y": 0,
+    "activeWorkspace": {
+        "id": 2,
+        "name": "2"
+    },
+    "specialWorkspace": {
+        "id": 0,
+        "name": ""
+    },
+    "reserved": [0, 0, 0, 0],
+    "scale": 1.00,
+    "transform": 0,
+    "focused": false,
+    "dpmsStatus": true,
+    "vrr": false,
+    "solitary": "0",
+    "activelyTearing": false,
+    "directScanoutTo": "0",
+    "disabled": false,
+    "currentFormat": "XRGB8888",
+    "mirrorOf": "none",
+    "availableModes": ["2560x1440@59.95Hz","1920x1200@59.95Hz","2048x1080@60.00Hz","2048x1080@24.00Hz","1920x1080@60.00Hz","1920x1080@60.00Hz","1920x1080@59.94Hz","1920x1080@50.00Hz","1600x1200@60.00Hz","1680x1050@59.95Hz","1280x1024@75.03Hz","1280x1024@60.02Hz","1440x900@59.95Hz","1280x800@59.95Hz","1152x864@75.00Hz","1280x720@60.00Hz","1280x720@60.00Hz","1280x720@59.94Hz","1280x720@50.00Hz","1024x768@75.03Hz","1024x768@60.00Hz","800x600@75.00Hz","800x600@60.32Hz","720x576@50.00Hz","720x576@50.00Hz","720x480@60.00Hz","720x480@60.00Hz","720x480@59.94Hz","720x480@59.94Hz","640x480@75.00Hz","640x480@60.00Hz","640x480@59.94Hz","640x480@59.94Hz","720x400@70.08Hz"]
+},{
+    "id": 2,
+    "name": "DP-2",
+    "description": "Dell Inc. DELL S2722QC 2T8LMD3",
+    "make": "Dell Inc.",
+    "model": "DELL S2722QC",
+    "serial": "2T8LMD3",
+    "width": 3840,
+    "height": 2160,
+    "refreshRate": 59.99700,
+    "x": 3840,
+    "y": 0,
+    "activeWorkspace": {
+        "id": 3,
+        "name": "3"
+    },
+    "specialWorkspace": {
+        "id": 0,
+        "name": ""
+    },
+    "reserved": [0, 0, 0, 0],
+    "scale": 1.50,
+    "transform": 0,
+    "focused": false,
+    "dpmsStatus": true,
+    "vrr": false,
+    "solitary": "0",
+    "activelyTearing": false,
+    "directScanoutTo": "0",
+    "disabled": false,
+    "currentFormat": "XRGB8888",
+    "mirrorOf": "none",
+    "availableModes": ["3840x2160@60.00Hz","3840x2160@30.00Hz","3840x2160@29.97Hz","3840x2160@25.00Hz","3840x2160@24.00Hz","3840x2160@23.98Hz","1920x2160@59.99Hz","2560x1440@59.95Hz","2048x1280@59.99Hz","1920x1200@60.00Hz","1920x1080@60.00Hz","1920x1080@60.00Hz","1920x1080@59.94Hz","1920x1080@50.00Hz","1920x1080@25.00Hz","1920x1080@24.00Hz","1920x1080@23.98Hz","1600x1200@60.00Hz","1680x1050@60.00Hz","1600x900@60.00Hz","1280x1024@75.03Hz","1280x1024@60.02Hz","1440x900@60.00Hz","1280x800@60.00Hz","1152x864@75.00Hz","1280x720@60.00Hz","1280x720@59.94Hz","1280x720@50.00Hz","1024x768@75.03Hz","1024x768@60.00Hz","800x600@75.00Hz","800x600@60.32Hz","720x576@50.00Hz","720x576@50.00Hz","720x480@60.00Hz","720x480@60.00Hz","720x480@59.94Hz","720x480@59.94Hz","640x480@75.00Hz","640x480@60.00Hz","640x480@59.94Hz","640x480@59.94Hz","720x400@70.08Hz"]
+}]
+[2025-03-12 16:54:15] Detected work setup
+[2025-03-12 16:54:16] Setting up laptop display
+[2025-03-12 16:54:16] Setting up primary external display (DP-2)
+[2025-03-12 16:54:16] Setting up secondary external display (DP-1)
+[2025-03-12 16:54:18] Assigning workspaces for work setup
+[2025-03-12 16:54:18] Using both external monitors for workspaces
+[2025-03-12 16:54:18] Monitor configuration complete

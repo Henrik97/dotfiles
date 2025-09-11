@@ -71,12 +71,14 @@
 # Add wisely, as too many plugins slow down shell startup.
 
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="agnoster"
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Starship Prompt
 eval "$(starship init zsh)"
+
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -151,3 +153,9 @@ ssh-add ~/.ssh/id_ed25519 2>/dev/null
 
 #---aws-----
 export AWS_PROFILE=dev
+
+#----Lazy Tools----
+alias ld="lazydocker"
+alias lg="lazygit"
+
+source /usr/share/zsh/plugins/fzf-tab-source/fzf-tab.plugin.zsh
