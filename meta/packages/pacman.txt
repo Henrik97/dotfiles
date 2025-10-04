@@ -1,0 +1,128 @@
+# --- Base System ---
+base-devel
+git
+stow
+sudo
+curl
+wget
+man-db
+man-pages
+zsh
+fzf
+eza
+bat
+fd
+ripgrep
+tldr
+less
+tree
+htop
+openssh
+gnupg
+rsync
+which
+procps-ng
+util-linux
+zoxide
+starship
+lazygit
+lazydocker
+
+
+
+# --- hyprland ---
+hyprpolkitagent
+
+
+
+# --- Layer 2: Core Apps ---
+
+# Terminal
+kitty
+
+# File manager (KDE Dolphin)
+dolphin
+kio
+kio-extras
+kde-cli-tools
+ffmpegthumbs
+ark
+
+# Browser
+firefox
+
+# Notifications & clipboard
+mako
+wl-clipboard
+cliphist
+
+# System integration
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+xdg-utils
+networkmanager
+network-manager-applet
+pavucontrol
+gnome-keyring
+
+# Fonts & icons
+ttf-firacode-nerd
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+papirus-icon-theme
+
+
+# Bluetooth stack
+bluez
+bluez-utils
+blueman
+
+# --- Audio Stack ---
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+wireplumber
+
+# --- Audio Tools ---
+pavucontrol
+pamixer
+playerctl
+helvum
+
+
+# --- Layer 3: Hyprland + Wayland Ecosystem ---
+
+# Window Manager and Compositor
+hyprland
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+xdg-utils
+hyprpaper
+
+# Bar
+waybar
+
+# Launchers
+wofi
+walker
+
+# Background & Effects
+hyprpaper
+
+# Notifications
+mako
+
+# Polkit & Keyring
+hyprpolkitagent
+gnome-keyring
+
+# Screenshot & Display Tools
+grim
+slurp
+swappy
+wf-recorder
+brightnessctl # keyboard brightness
+ddcutil # monitor brightness

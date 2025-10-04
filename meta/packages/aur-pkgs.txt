@@ -1,4 +1,3 @@
-[1m[33m -> [0m[0mAvoid running yay as root/sudo.
 7zip
 amd-ucode
 base
@@ -29,7 +28,6 @@ libpulse
 linux
 linux-firmware
 linux-lts
-nano
 networkmanager
 openssh
 pipewire

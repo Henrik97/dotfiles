@@ -5,7 +5,5 @@ lazydocker-debug
 oh-my-posh
 slack-desktop
 spotify
-spotify-tui
-spotify-tui-debug
 yay
 yay-debug

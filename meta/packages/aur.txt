@@ -1,0 +1,10 @@
+# --- Hyprland ---
+hyprshot
+hyprpicker
+
+# --- Desktop Environment ---
+polkit-gnome
+
+# --- Apps ---
+spotify
+

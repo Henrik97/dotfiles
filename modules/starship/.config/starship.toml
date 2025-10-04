@@ -7,11 +7,14 @@ format = """
 [╭](fg:separator)\
 $status\
 $directory\
+$git_branch\
+$git_status\
 $cmd_duration\
 $line_break\
 [╰](fg:separator)\
 $character\
 """
+
 
 ###########################################
 
@@ -51,4 +54,13 @@ min_time = 1000
 
 [time]
 format = "[](fg:duration)[󰥔](fg:icon bg:duration)[](fg:duration bg:background)[ $time](bg:background)[](fg:background)"
+disabled = false
+
+[git_branch]
+format = "[─](fg:separator)[](fg:directory)[](fg:icon bg:directory)[](fg:directory bg:background)[ $branch](bg:background)[](fg:background)"
+style = "bold fg:directory"
+disabled = false
+
+[git_status]
+format = " [$all_status$ahead_behind](fg:prompt_ok)"
 disabled = false
