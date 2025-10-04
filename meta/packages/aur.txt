@@ -8,3 +8,5 @@ polkit-gnome
 # --- Apps ---
 spotify
 
+
+aws-cli-v2

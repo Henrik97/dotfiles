@@ -102,6 +102,7 @@ xdg-desktop-portal-gtk
 xdg-utils
 hyprpaper
 hypridle
+hyprlock
 
 # Bar
 waybar
