@@ -1,0 +1,124 @@
+# ================================
+# --- Base System ---
+# ================================
+base-devel
+git
+stow
+sudo
+curl
+wget
+man-db
+man-pages
+less
+tree
+htop
+openssh
+gnupg
+rsync
+which
+procps-ng
+util-linux
+ripgrep
+tldr
+docker
+docker-compose
+lazygit
+lazydocker
+
+# ================================
+# --- Shell Enhancements ---
+# ================================
+zsh
+starship
+zoxide
+fzf
+bat
+eza
+fd
+ranger
+thefuck
+
+# ================================
+# --- Hyprland ---
+# ================================
+hyprland
+hyprpaper
+hypridle
+hyprlock
+hyprpolkitagent
+
+# ================================
+# --- Layer 2: Core Apps ---
+# ================================
+
+# Terminal
+kitty
+
+# File Manager (KDE Dolphin)
+dolphin
+kio
+kio-extras
+kde-cli-tools
+ffmpegthumbs
+ark
+
+# Browser
+firefox
+
+# Notifications & Clipboard
+mako
+wl-clipboard
+cliphist
+
+# System Integration
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+xdg-utils
+networkmanager
+network-manager-applet
+pavucontrol
+gnome-keyring
+
+# Fonts & Icons
+ttf-firacode-nerd
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+papirus-icon-theme
+
+# Bluetooth Stack
+bluez
+bluez-utils
+blueman
+
+# ================================
+# --- Audio Stack ---
+# ================================
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+wireplumber
+
+# ================================
+# --- Audio Tools ---
+# ================================
+pavucontrol
+pamixer
+playerctl
+helvum
+
+# ================================
+# --- Wayland Ecosystem ---
+# ================================
+waybar
+wofi
+walker
+grim
+slurp
+swappy
+wf-recorder
+brightnessctl
+ddcutil
+

@@ -1,0 +1,15 @@
+# --- Hyprland ---
+hyprshot
+hyprpicker
+polkit-gnome
+
+# --- Apps ---
+spotify
+
+
+aws-cli-v2
+
+thefuck
+ranger
+walker
+
