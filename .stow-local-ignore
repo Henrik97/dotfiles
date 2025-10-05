@@ -1,1 +1,16 @@
+# Ignore meta and install directories
 meta
+install
+packages
+
+# Ignore top-level files
+README.md
+LICENSE
+.git
+.gitignore
+.stow-local-ignore
+
+# Optional: ignore these if you see them linked accidentally
+bootstrap.sh
+install-dotfiles.sh
+install-pks.sh

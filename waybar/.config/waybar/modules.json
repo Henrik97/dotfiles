@@ -1,0 +1,46 @@
+{
+  "hyprland/workspaces": {
+    "on-scroll-up": "hyprctl dispatch workspace r-1",
+    "on-scroll-down": "hyprctl dispatch workspace r+1",
+    "on-click": "activate",
+    "active-only": false,
+    "all-outputs": false,
+    "format": "{}",
+    "persistent-workspaces": {
+      "*": 5
+    }
+  },
+
+  "clock": {
+    "interval": 30,
+    "format": "{:%H:%M}",
+    "tooltip": false
+  },
+
+  "custom/date": {
+    "exec": "echo '{\"text\": \"'$(date +'%a %d/%m')'\", \"tooltip\": \"'$(date '+%A, %d %B %Y')'\"}'",
+    "return-type": "json",
+    "interval": 60,
+    "format": "{}"
+  },
+
+  "tray": {
+    "icon-size": 18,
+    "spacing": 6
+  },
+
+  "custom/notify": {
+    "format": "🔔",
+    "exec": "makoctl list | jq -r 'if (length // 0) > 0 then \"🔔\" else \"\" end' 2>/dev/null || echo ''",
+    "interval": 2,
+    "on-click": "makoctl dismiss -a",
+    "tooltip": true,
+    "tooltip-format": "Click to clear all notifications"
+  },
+
+  "custom/controlcenter": {
+    "format": "⚙️",
+    "tooltip": false,
+    "on-click": "~/.config/waybar/scripts/control-center.sh"
+  }
+}

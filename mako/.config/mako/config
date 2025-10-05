@@ -1,0 +1,15 @@
+# ~/.config/mako/config
+font=JetBrainsMono Nerd Font 10
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+border-size=2
+padding=8
+margin=10
+default-timeout=5000
+max-visible=3
+layer=overlay
+anchor=top-right
+width=300
+height=100
+ignore-timeout=1

@@ -1,0 +1,53 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", "FiraCode Nerd Font", monospace;
+  font-size: 13px;
+  color: #e0e0e0;
+}
+
+/* --- Workspaces --- */
+
+window#waybar {
+  background-color: rgba(25, 25, 25, 0.85);
+  padding: 0 10px;
+}
+
+#workspaces {
+  margin: 0 8px;
+}
+
+#workspaces button {
+  padding: 0 6px;
+  color: #aaaaaa;
+  background: transparent;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+/* Active workspace (focused monitor & workspace) */
+#workspaces button.active,
+#workspaces button.focused {
+  color: #cba6f7;
+  background-color: rgba(203, 166, 247, 0.1);
+  border-radius: 6px;
+}
+
+/* Hover effect */
+#workspaces button:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Urgent (window needs attention) */
+#workspaces button.urgent {
+  color: #f38ba8;
+  background-color: rgba(243, 139, 168, 0.15);
+}
+
+#custom-notify {
+  color: #cccccc;
+}
+
+#custom-notify.alert {
+  color: #ffffff;
+  font-weight: bold;
+}

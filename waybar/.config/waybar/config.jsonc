@@ -1,0 +1,20 @@
+[
+  {
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+    "spacing": 8,
+    "fixed-center": true,
+    "all-outputs": true, // creates a bar for each monitor
+    "modules-left": ["hyprland/window"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": [
+      "custom/controlcenter",
+      "custom/notify",
+      "custom/date",
+      "clock",
+      "tray",
+    ],
+    "include": "~/.config/waybar/modules.json",
+  },
+]
