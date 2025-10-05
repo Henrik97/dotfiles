@@ -1,8 +1,6 @@
 # --- Hyprland ---
 hyprshot
 hyprpicker
-
-# --- Desktop Environment ---
 polkit-gnome
 
 # --- Apps ---
@@ -10,3 +8,8 @@ spotify
 
 
 aws-cli-v2
+
+thefuck
+ranger
+walker
+

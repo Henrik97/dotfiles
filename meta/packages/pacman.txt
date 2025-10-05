@@ -1,4 +1,6 @@
+# ================================
 # --- Base System ---
+# ================================
 base-devel
 git
 stow
@@ -7,13 +9,6 @@ curl
 wget
 man-db
 man-pages
-zsh
-fzf
-eza
-bat
-fd
-ripgrep
-tldr
 less
 tree
 htop
@@ -23,24 +18,43 @@ rsync
 which
 procps-ng
 util-linux
-zoxide
-starship
+ripgrep
+tldr
+docker
+docker-compose
 lazygit
 lazydocker
 
+# ================================
+# --- Shell Enhancements ---
+# ================================
+zsh
+starship
+zoxide
+fzf
+bat
+eza
+fd
+ranger
+thefuck
 
-
-# --- hyprland ---
+# ================================
+# --- Hyprland ---
+# ================================
+hyprland
+hyprpaper
+hypridle
+hyprlock
 hyprpolkitagent
 
-
-
+# ================================
 # --- Layer 2: Core Apps ---
+# ================================
 
 # Terminal
 kitty
 
-# File manager (KDE Dolphin)
+# File Manager (KDE Dolphin)
 dolphin
 kio
 kio-extras
@@ -51,12 +65,12 @@ ark
 # Browser
 firefox
 
-# Notifications & clipboard
+# Notifications & Clipboard
 mako
 wl-clipboard
 cliphist
 
-# System integration
+# System Integration
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-gtk
 xdg-utils
@@ -65,7 +79,7 @@ network-manager-applet
 pavucontrol
 gnome-keyring
 
-# Fonts & icons
+# Fonts & Icons
 ttf-firacode-nerd
 ttf-jetbrains-mono-nerd
 noto-fonts
@@ -73,58 +87,38 @@ noto-fonts-cjk
 noto-fonts-emoji
 papirus-icon-theme
 
-
-# Bluetooth stack
+# Bluetooth Stack
 bluez
 bluez-utils
 blueman
 
+# ================================
 # --- Audio Stack ---
+# ================================
 pipewire
 pipewire-alsa
 pipewire-pulse
 pipewire-jack
 wireplumber
 
+# ================================
 # --- Audio Tools ---
+# ================================
 pavucontrol
 pamixer
 playerctl
 helvum
 
-
-# --- Layer 3: Hyprland + Wayland Ecosystem ---
-
-# Window Manager and Compositor
-hyprland
-xdg-desktop-portal-hyprland
-xdg-desktop-portal-gtk
-xdg-utils
-hyprpaper
-hypridle
-hyprlock
-
-# Bar
+# ================================
+# --- Wayland Ecosystem ---
+# ================================
 waybar
-
-# Launchers
 wofi
 walker
-
-# Background & Effects
-hyprpaper
-
-# Notifications
-mako
-
-# Polkit & Keyring
-hyprpolkitagent
-gnome-keyring
-
-# Screenshot & Display Tools
 grim
 slurp
 swappy
 wf-recorder
-brightnessctl # keyboard brightness
-ddcutil # monitor brightness
+brightnessctl
+ddcutil
+

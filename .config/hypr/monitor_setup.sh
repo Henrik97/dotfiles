@@ -1,1 +1,0 @@
-../../modules/hypr/.config/hypr/monitor_setup.sh

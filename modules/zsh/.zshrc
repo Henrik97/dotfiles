@@ -10,12 +10,14 @@ export ZSH_DISABLE_COMPFIX=true
 # --- PATH ---
 export PATH="$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH"
 
-# --- Plugin manager: zinit (fast, minimal) ---
-if [[ ! -f ~/.local/share/zinit/zinit.zsh ]]; then
-  mkdir -p ~/.local/share/zinit
-  git clone https://github.com/zdharma-continuum/zinit.git ~/.local/share/zinit/bin
+# Load zinit plugin manager
+ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+if [[ ! -d "$ZINIT_HOME" ]]; then
+  mkdir -p "$(dirname $ZINIT_HOME)"
+  git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 fi
-source ~/.local/share/zinit/bin/zinit.zsh
+source "${ZINIT_HOME}/zinit.zsh"
+
 
 # --- Plugins ---
 zinit light zsh-users/zsh-autosuggestions
